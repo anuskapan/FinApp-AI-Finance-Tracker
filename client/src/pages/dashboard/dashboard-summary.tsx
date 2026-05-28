@@ -16,7 +16,7 @@ const DashboardSummary = ({
     <div className="w-full">
       <DashboardHeader
         title={`Welcome back, ${user?.name || "Unknow"}`}
-        subtitle="This is your overview report for the selected period"
+        subtitle="This is your dashboard as per your current transaction"
         dateRange={dateRange}
         setDateRange={setDateRange}
       />

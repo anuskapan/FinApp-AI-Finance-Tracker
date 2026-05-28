@@ -28,7 +28,7 @@ app.use(passport.initialize());
 
 app.use(
   cors({
-    origin: Env.FRONTEND_ORIGIN,
+    origin: /^http:\/\/localhost:\d+$/,
     credentials: true,
   })
 );

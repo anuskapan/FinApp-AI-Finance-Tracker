@@ -64,7 +64,7 @@ const DashboardDataChart: React.FC<PropsType> = (props) => {
       dark:border-border !p-0 pr-1 sm:flex-row"
       >
         <div className="flex flex-1 flex-col justify-center gap-1 px-6 py-0 sm:py-0">
-          <CardTitle className="text-lg">Transaction Overview</CardTitle>
+          <CardTitle className="text-lg">Transaction Dasboard</CardTitle>
           <CardDescription>
             <span>Showing total transactions {dateRange?.label}</span>
           </CardDescription>

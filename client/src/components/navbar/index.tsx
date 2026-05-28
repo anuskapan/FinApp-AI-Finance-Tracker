@@ -20,7 +20,7 @@ const Navbar = () => {
   const routes = [
     {
       href: PROTECTED_ROUTES.OVERVIEW,
-      label: "Overview",
+      label: "Dashboard",
     },
     {
       href: PROTECTED_ROUTES.TRANSACTIONS,
@@ -29,6 +29,10 @@ const Navbar = () => {
     {
       href: PROTECTED_ROUTES.REPORTS,
       label: "Reports",
+    },
+    {
+      href: PROTECTED_ROUTES.FINANCIAL_LITERACY,
+      label: "Learn",
     },
     {
       href: PROTECTED_ROUTES.SETTINGS,
